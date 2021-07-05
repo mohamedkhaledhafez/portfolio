@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--===================== Normalize Css File ====================-->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
 
     <!--====================== Icons ==========================-->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+
+    <!--========================== Swiper Css File ============================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <!--========================== Style Css File ============================-->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -371,9 +374,97 @@
       </section>
 
       <!--===================== PORTFOLIO ========================-->
-    </main>
+      <section class="portfolio sectio" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
 
-    <!--====================== JS File ====================-->
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--===================== PORTFOLIO #1========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/portfolio-img1.jpg"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with attractive ui and
+                  animated interactions.
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+            <!--===================== PORTFOLIO #2========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/portfolio-img2.jpg"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Consulting Company</h3>
+                <p class="portfolio__description">
+                  Build a website for a financial and economic consulting
+                  company called (Dreams Gate) for there new branch in egypt.
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+            <!--===================== PORTFOLIO #3========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/portfolio-img3.jpg"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">E-Commerce Website</h3>
+                <p class="portfolio__description">
+                  Beautiful responsive ecommerce website, it has multiple
+                  sections such as a home, featured products, new arrivals, and
+                  much more. Fully responsive and mobile first.
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--=========== Swiper Arrows =============-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!--=========== Swiper Pagination =============-->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--===================== PROJECT IN MIND ========================-->
+    </main>
+    <!--====================== Swiper JS File ====================-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!--====================== JS Main File ====================-->
     <script src="js/main.js"></script>
   </body>
 </html>
