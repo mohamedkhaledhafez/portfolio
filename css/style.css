@@ -308,7 +308,7 @@ img {
   width: 200px;
   fill: var(--first-color);
 }
-.home__blob img {
+.home__blob-img {
   width: 170px;
 }
 
@@ -506,6 +506,11 @@ img {
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
 }
 
 .skills__titles {
@@ -1222,6 +1227,10 @@ img {
     -o-transform: translateX(-6rem);
   }
 
+  .skills__list {
+    grid-template-columns: repeat(1, 800px);
+  }
+
   .portfolio__content {
     column-gap: 5rem;
   }
@@ -1248,5 +1257,26 @@ img {
 
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__title {
+    font-size: 1.5rem;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__links {
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+
+  .footer__social {
+    justify-self: flex-end;
+  }
+
+  .footer__copyright {
+    margin-top: 4.5rem;
   }
 }
