@@ -1264,19 +1264,12 @@ img {
   }
 
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .footer__links {
     flex-direction: column;
-    column-gap: 2rem;
-  }
-
-  .footer__social {
-    justify-self: flex-end;
-  }
-
-  .footer__copyright {
-    margin-top: 4.5rem;
+    column-gap: 5rem;
+    right: 2rem;
   }
 }
