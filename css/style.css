@@ -77,6 +77,16 @@ body.dark-theme {
   --container-color: HSL(var(var(--hue-color), 29%, 16%));
   --scroll-bar-color: HSL(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: HSL(var(--hue-color), 12%, 36%);
+  transition: 0.6s linear;
+  -webkit-transition: 0.6s linear;
+  -moz-transition: 0.6s linear;
+  -ms-transition: 0.6s linear;
+  -o-transition: 0.6s linear;
+}
+
+::selection {
+  background-color: var(--first-color);
+  color: #fff;
 }
 
 /*================= Dark/Light Theme Button =================*/
@@ -90,6 +100,11 @@ body.dark-theme {
   color: var(--title-color);
   margin-right: var(--mb-1);
   cursor: pointer;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
 }
 
 .change-theme:hover {
@@ -114,6 +129,11 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
 }
 
 h1,
@@ -379,6 +399,11 @@ img {
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
 }
 
 .button:hover {
@@ -424,6 +449,7 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+
 /*============== ABOUT SECTION ===============*/
 .about__img {
   width: 200px;
@@ -551,6 +577,10 @@ img {
   width: 80%;
 }
 
+.skills__sass {
+  width: 50%;
+}
+
 .skills__js {
   width: 65%;
 }
@@ -560,7 +590,10 @@ img {
 }
 
 .skills__reactjs {
-  width: 70%;
+  width: 50%;
+}
+.skills__pug {
+  width: 40%;
 }
 
 .skills__git {
