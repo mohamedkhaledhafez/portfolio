@@ -643,10 +643,6 @@ button {
   column-gap: 0.5rem;
 }
 
-.back .skills__data {
-  display: flex;
-}
-
 .skills__data img {
   width: 30px;
   height: 30px;
@@ -1105,6 +1101,11 @@ button {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .skills__data img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1200,6 +1201,11 @@ button {
 
   .about__buttons {
     justify-content: initial;
+  }
+
+  .skills__data img {
+    width: 30px;
+    height: 30px;
   }
 
   .services__container {
