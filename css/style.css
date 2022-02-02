@@ -628,7 +628,7 @@ button {
 
 .skills__box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   column-gap: 2.5rem;
 }
 
@@ -641,6 +641,15 @@ button {
 .skills__data {
   display: flex;
   column-gap: 0.5rem;
+}
+
+.back .skills__data {
+  display: flex;
+}
+
+.skills__data img {
+  width: 30px;
+  height: 30px;
 }
 
 /*============== SERVICES SECTION ===============*/
