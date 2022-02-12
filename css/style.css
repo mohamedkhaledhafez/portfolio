@@ -589,6 +589,7 @@ button {
 
 .about__info-name {
   font-size: var(--smaller-font-size);
+  color: #ddd;
 }
 
 .about__info-title,
@@ -648,6 +649,9 @@ button {
   height: 30px;
 }
 
+.skills__name {
+  color: #ddd;
+}
 /*============== SERVICES SECTION ===============*/
 .services__container {
   gap: 1.5rem;
