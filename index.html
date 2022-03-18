@@ -55,7 +55,7 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
+              <a href="#work" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i> Portfolio
               </a>
             </li>
@@ -316,14 +316,128 @@
       </section>
 
       <!--===================== PORTFOLIO ========================-->
-      <section class="portfolio section" id="portfolio">
+      <section class="work section" id="work">
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent work</span>
+        <div class="work__filters">
+          <span class="work__item active__work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".live">Live</span>
+          <span class="work__item" data-filter=".js">JS</span>
+          <span class="work__item" data-filter=".react">React.js</span>
+          <span class="work__item" data-filter=".games">Games</span>
+        </div>
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--===================== PORTFOLIO #1========================-->
-            <div class="portfolio__content grid swiper-slide">
+        <div class="work__container container grid">
+          <div class="work__card mix live">
+            <img src="img/portfolio-img1.png" alt="" class="work__img" />
+            <h3 class="work__title">Consulting Company</h3>
+            <a
+              href="https://www.dreams-gate-egypt.com/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix js">
+            <img src="img/portfolio-img9.png" alt="" class="work__img" />
+            <h3 class="work__title">Ultimate Design</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/ultimateDesign/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix js">
+            <img src="img/portfolio-img3.png" alt="" class="work__img" />
+            <h3 class="work__title">E-commerce Website</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/e-commerce-shop"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix react">
+            <img src="img/portfolio-img4.png" alt="" class="work__img" />
+            <h3 class="work__title">Todo React App</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/todoApp/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix games">
+            <img src="img/portfolio-img5.png" alt="" class="work__img" />
+            <h3 class="work__title">Memory Game</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/Memory-Game/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix games">
+            <img src="img/portfolio-img6.png" alt="" class="work__img" />
+            <h3 class="work__title">Hangman Game</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/Hangman-Game/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix js">
+            <img src="img/portfolio-img8.png" alt="" class="work__img" />
+            <h3 class="work__title">Fetch Github Repos</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/Fetch_Github_Repos/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix js">
+            <img src="img/portfolio-img7.png" alt="" class="work__img" />
+            <h3 class="work__title">Quiz App</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/quiz_app/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix react">
+            <img src="img/portfolio-img2.png" alt="" class="work__img" />
+            <h3 class="work__title">Weather App</h3>
+            <a
+              href="https://mohamedkhaledhafez.github.io/WeatherApp/"
+              target="_blank"
+              class="work__btn"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <!--===================== PORTFOLIO #1========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img1.png"
                 alt="portfolio_1"
@@ -344,10 +458,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #9========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #2========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img9.png"
                 alt="portfolio_9"
@@ -369,10 +483,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #2========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #3========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img2.png"
                 alt="portfolio_1"
@@ -394,10 +508,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #3========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #4========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img3.png"
                 alt="portfolio_1"
@@ -419,10 +533,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #4========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #5========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img4.png"
                 alt="portfolio_1"
@@ -443,10 +557,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #5========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #6========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img5.png"
                 alt="portfolio_1"
@@ -468,10 +582,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #6========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #7========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img6.png"
                 alt="portfolio_1"
@@ -491,10 +605,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #7========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #8========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img7.png"
                 alt="portfolio_1"
@@ -515,10 +629,10 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
+            </div> -->
 
-            <!--===================== PORTFOLIO #8========================-->
-            <div class="portfolio__content grid swiper-slide">
+          <!--===================== PORTFOLIO #9========================-->
+          <!-- <div class="portfolio__content grid swiper-slide">
               <img
                 src="img/portfolio-img8.png"
                 alt="portfolio_8"
@@ -539,17 +653,8 @@
                   >Demo <i class="uil uil-arrow-right button__icon"></i
                 ></a>
               </div>
-            </div>
-          </div>
+            </div> -->
           <!--=========== Swiper Arrows =============-->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <!--=========== Swiper Pagination =============-->
-          <div class="swiper-pagination"></div>
         </div>
       </section>
 
@@ -699,6 +804,9 @@
     <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
+
+    <!--====================== MIXITUP JS File ====================-->
+    <script src="js/mixitup.min.js"></script>
 
     <!--====================== Swiper JS File ====================-->
     <script src="js/swiper-bundle.min.js"></script>

@@ -74,8 +74,8 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-/*======================= PORTFOLIO SWIPER ==========================*/
-
+/*======================= MIXITUP FILTER PORTFOLIO ==========================*/
+/* 
 let swiper = new Swiper(".portfolio__container", {
   cssMode: true,
   Loop: true,
@@ -89,6 +89,26 @@ let swiper = new Swiper(".portfolio__container", {
     dynamicBullets: true,
   },
 });
+ */
+
+let mixerPortfolio = mixitup(".work__container", {
+  selectors: {
+    target: ".work__card",
+  },
+  animation: {
+    duration: 300,
+  },
+});
+
+/* Link Active Work*/
+const linkWork = document.querySelectorAll(".work__item");
+
+function activeWork() {
+  linkWork.forEach((l) => l.classList.remove("active__work"));
+  this.classList.add("active__work");
+}
+
+linkWork.forEach((l) => l.addEventListener("click", activeWork));
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
