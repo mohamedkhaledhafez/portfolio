@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===================== Normalize Css File ====================-->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+
+    <!--====================== Icons ==========================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--====================== BoxIcons ==========================-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========================== Swiper Css File ============================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!--========================== Style Css File ============================-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--====================== Header Section ======================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Mohamed</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-home nav__icon"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>
+                Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase nav__icon"></i>
+                Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                Contact Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!--====================== Theme Change Button ======================-->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--====================== Main Section ======================-->
+    <main class="main">
+      <!--===================== HOME ========================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/mohamed-hafez97/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+
+              <a
+                href="https://github.com/mohamedkhaledhafez"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+
+              <a
+                href="https://www.facebook.com/mohamedkhaled97.bfci"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <div class="home__blob">
+                <img src="img/me_2.png" alt="" class="home__blob-img" />
+              </div>
+            </div>
+
+            <div class="home__data">
+              <span class="home__greeting">Hello, I'm</span>
+              <h1 class="home__title">Mohamed Khaled</h1>
+              <h3 class="home__subtitle">Web developer</h3>
+              <p class="home__description">
+                experienced in finding a solutions to technical challenges,
+                enjoying building web apps which are fully responsive.
+              </p>
+              <a
+                role="button"
+                href="https://wa.me/+201064155406"
+                target="_blank"
+                class="button button--flex"
+              >
+                Contact Me
+                <i class="uil uil-message button__icon"></i>
+              </a>
+              <!-- <a
+                download=""
+                href="cv/Mohamed_Khaled(Web Developer).pdf"
+                class="button button__flex button__download"
+              >
+                Download CV
+                <i class="uil uil-download-alt button__icon"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll dwon</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== ABOUT ========================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="img/me_4.jpeg" alt="My photo" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              I love writing code. Ever since writing my first website code and
+              I started to see what I write translated into a UI, I felt my
+              passion for this field.
+            </p>
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <span class="about__info-title">+02</span>
+                <span class="about__info-name">
+                  Years
+                  <br />
+                  experience
+                </span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <span class="about__info-title">+13</span>
+                <span class="about__info-name">
+                  Completed
+                  <br />
+                  project
+                </span>
+              </div>
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="cv/Mohamed_Khaled(Web Developer).pdf"
+                class="button button__flex"
+              >
+                Download CV
+                <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS ========================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">My Skills</h2>
+        <span class="section__subtitle">My abilities</span>
+        <div class="skills__container container grid">
+          <!-- Frontend Developer Skills -->
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <img src="img/html-5.png" alt="" />
+                  <div class="skills__name">HTML</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/css.png" alt="css" />
+                  <div class="skills__name">CSS</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/sass.png" alt="" />
+                  <div class="skills__name">Sass</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/github.png" alt="" />
+                  <div class="skills__name">Git/Github</div>
+                </div>
+                <!-- <div class="skills__data">
+                  <img src="img/pug.png" alt="" />
+                  <div class="skills__name">Pugjs</div>
+                </div> -->
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <img src="img/bootstrap.png" alt="" />
+                  <div class="skills__name">Bootstrap</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/js.png" alt="" />
+                  <div class="skills__name">JavaScript</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/react.png" alt="" />
+                  <div class="skills__name">Reactjs</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Developer Skills -->
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Developer</h3>
+            <div class="skills__box">
+              <div class="skills__group back">
+                <div class="skills__data">
+                  <img src="img/php.png" alt="" />
+                  <div class="skills__name">PHP</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/mysql.png" alt="" />
+                  <div class="skills__name">MySQL</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/1177.png" alt="" />
+                  <div class="skills__name">WordPress</div>
+                </div>
+                <div class="skills__data">
+                  <img src="img/cms.png" alt="" />
+                  <div class="skills__name">Custom CMS development</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SERVICES ========================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+
+        <div class="services__container container grid">
+          <!--===================== SERVICE #1 Frontend Developer ========================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+              <h3 class="services__title">
+                Frontend
+                <br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View more
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Frontend
+                  <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>Web page development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Ensure that the website is optimized for various devices.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Ensure that the website is functional and visually
+                      appealing.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--===================== SERVICE #2 Backend Developer ========================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+              <h3 class="services__title">
+                Backend
+                <br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View more
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Backend
+                  <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Developing and maintaining dynamic websites and web
+                      applications using PHP, HTML, CSS, and JavaScript.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>Custom CMS development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Integrating data storage solutions such as MySQL
+                      databases.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Writing and maintaining efficient, reusable, and reliable
+                      code.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servcies__modal-icon"></i>
+                    <p>
+                      Developing and maintaining web applications and e-commerce
+                      websites.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== PORTFOLIO ========================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container grid swiper-container">
+          <div class="swiper-wrapper">
+            <!--===================== PORTFOLIO #1 ( West Virginia Academy ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="img/wva.png" alt="portfolio_1" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">West Virginia Academy</h3>
+                <p class="portfolio__description">
+                  I created a website & school management system for West
+                  Virginia Academy in Doha to manage and cover all aspects of
+                  the educational process.
+                </p>
+
+                <a
+                  href="https://westvirginia.academy/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #2 ( Enppi ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/enppi.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Elevator Company Management System (Enppi)
+                </h3>
+                <p class="portfolio__description">
+                  A website and content management system for an electric
+                  elevator company in Cairo to record the stages of installation
+                  and maintenance of elevators in all of the company’s units, as
+                  well as the costs of each stage, and receive customer
+                  complaints and maintenance requests.
+                </p>
+
+                <a
+                  href="https://enppi.website/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #3 ( Car Rental Website ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/firstcar-rent.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Car Rental Website (First Car Rent)
+                </h3>
+                <p class="portfolio__description">
+                  A website and content management system for a car rental
+                  office in Dubai - UAE, To view the cars with all their details
+                  and the required papers for the renter and request to rent the
+                  car through the website.
+                </p>
+
+                <a
+                  href="https://firstcar-rent.com/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #4 ( Real Estate Website ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/real-estate.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Real Estate Website (Dreams Gate Customers)
+                </h3>
+                <p class="portfolio__description">
+                  A website and management system for managing a Qatari real
+                  estate company (Dreams Gate Customers). Through the control
+                  panel, the company’s real estate unit contracts are
+                  registered, payment transaction data is recorded, in addition
+                  to managing the company’s employees, recording attendance and
+                  tasks for them according to each department, and determining
+                  the role of each employee.
+                </p>
+
+                <a
+                  href="https://dreamsgate-customers.com/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #5 ( Salon Management System ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/ghonem-salon.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Salon Management System (Ghonem Salon)
+                </h3>
+                <p class="portfolio__description">
+                  A website and system for managing customer appointment
+                  reservations for a men’s barbershop to organize customer
+                  reservation appointments for first-come, first-served
+                  attendance, as well as displaying the salon’s services, their
+                  prices, and the duration of their implementation, in addition
+                  to printing invoices for customers after receiving the
+                  service.
+                </p>
+
+                <a
+                  href="https://ghonem.com/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #6 ( E-commerce Website ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/e-commerce.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  E-commerce Website
+                </h3>
+                <p class="portfolio__description">
+                  Implemented a custom CMS solution for e-commerce website,
+                  managing products and orders from customers registered in the
+                  store, as well as issuing reports for a specific product or a
+                  specific period
+                </p>
+
+                <a
+                  href="https://ultraapps.net/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #7 ( Import & Export Company Website ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/egitto.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Import & Export Company Website (Egitto Trading)
+                </h3>
+                <p class="portfolio__description">
+                  A front-end website with a control panel to add products and
+                  categories to an Egyptian food and frozen products import and
+                  export company.
+                </p>
+
+                <a
+                  href="https://egitto-trading.com/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #8 ( lawyer System ) ========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/lawyer.png"
+                alt="portfolio_9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  lawyer System
+                </h3>
+                <p class="portfolio__description">
+                  A program specialized in the management of law offices and
+                  legal advice (Customer Management - Case Management - Session
+                  Management - Payment Management - Expense Management - User
+                  Management - Reports...).
+                </p>
+
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Localhost
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #9 (React Todo App)========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/portfolio-img4.png"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Todo React App</h3>
+                <p class="portfolio__description">
+                  Todo Web App - using React.js (Hooks) - its fully responsive
+                  and have an attractive design.
+                </p>
+
+                <a
+                  href="https://mohamedkhaledhafez.github.io/todoApp/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--===================== PORTFOLIO #9 ========================-->
+            <!-- <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/portfolio-img8.png"
+                alt="portfolio_8"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with attractive ui and
+                  animated interactions. Created by HTML, CSS and JavaScript.
+                </p>
+
+                <a
+                  href="https://mohamedkhaledhafez.github.io/Responsive-template/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div> -->
+
+            <!--===================== PORTFOLIO #10 ( Fetch Github Repos )========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/fetch-repos.png.png"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Fetch Github Repos</h3>
+                <p class="portfolio__description">
+                  A simple application that enables you to get the repositories
+                  of someone’s on github once you enter the link of his github
+                  account.
+                </p>
+
+                <a
+                  href="https://mohamedkhaledhafez.github.io/Fetch_Github_Repos/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--===================== PORTFOLIO #11 ( Quiz App )========================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="img/quiz-app.png"
+                alt="portfolio_1"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Quiz App</h3>
+                <p class="portfolio__description">
+                  A simple application whose idea is based on answering some
+                  questions, which have a specific time for each question, and
+                  then displaying the final result at the end of the test.
+                </p>
+
+                <a
+                  href="https://mohamedkhaledhafez.github.io/quiz_app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--=========== Swiper Arrows =============-->
+          <div class="swiper-button-next">
+            <i class="bx bx-chevron-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="bx bx-chevron-left swiper-portfolio-icon"></i>
+          </div>
+
+          <!--=========== Swiper Arrows =============-->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--===================== PROJECT IN MIND ========================-->
+      <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">You have a new project ?</h2>
+              <p class="project__description">
+                Contact me now and get a 50% discount on your new project.
+              </p>
+              <a href="https://wa.me/+201064155406" class="button button--flex button--white">
+                Contact Me
+                <i class="uil uil-message project__icon button__icon"></i>
+              </a>
+            </div>
+
+            <img src="img/me_1.jpeg" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===================== CONTACT ME ========================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+20 106 4155 406</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Gmail</h3>
+                <span class="contact__subtitle">
+                  mohamedkhaled97858@gmail.com
+                </span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Cairo - Egypt</span>
+              </div>
+            </div>
+          </div>
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="5"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <a
+                href="mailto:mohamedkhaled97858@gmail.com?subject=Contact"
+                class="button button--flex"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===================== FOOTER ========================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Mohamed Khaled</h1>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/mohamed-hafez97/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+
+            <a
+              href="https://github.com/mohamedkhaledhafez"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+
+            <a
+              href="https://www.facebook.com/mohamedkhaled97.bfci"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copyright">
+          &copy; Mohamed Khaled. All right reserved
+        </p>
+      </div>
+    </footer>
+
+    <!--===================== SCROLL TO TOP ========================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--====================== MIXITUP JS File ====================-->
+    <script src="js/mixitup.min.js"></script>
+
+    <!--====================== Swiper JS File ====================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--====================== Swiper JS File ====================-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--====================== JS Main File ====================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
