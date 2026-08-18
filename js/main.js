@@ -143,15 +143,16 @@ function scrollActive() {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
     const sectionId = current.getAttribute("id");
+    const navLink = document.querySelector(
+      ".nav__menu a[href*=\"" + sectionId + "\"]"
+    );
+
+    if (!navLink) return;
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.add("active-link");
+      navLink.classList.add("active-link");
     } else {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.remove("active-link");
+      navLink.classList.remove("active-link");
     }
   });
 }

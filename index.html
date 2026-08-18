@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <!--========================== Style Css File ============================-->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/projects.css" />
 
   <title>Portfolio</title>
 </head>
@@ -57,7 +58,7 @@
           <li class="nav__item">
             <a href="#portfolio" class="nav__link">
               <i class="uil uil-scenery nav__icon"></i>
-              Portfolio
+              Projects
             </a>
           </li>
           <li class="nav__item">
@@ -506,8 +507,28 @@
       </div>
     </section>
 
-    <!--===================== PORTFOLIO ========================-->
-    <section class="portfolio section" id="portfolio">
+    <!--===================== SELECTED PROJECTS ========================-->
+    <section class="selected-work section" id="portfolio">
+      <div class="selected-work__intro container">
+        <h2 class="section__title">Selected Projects</h2>
+        <p class="section__subtitle">Business systems and digital products built around real operational workflows.</p>
+      </div>
+
+      <div class="selected-work__list container" data-project-showcase></div>
+
+      <div class="selected-work__cta container">
+        <div>
+          <h3>Have a project in mind?</h3>
+          <p>Let's build a system that fits your business and scales with you.</p>
+        </div>
+        <a href="#contact" class="project-link project-link--primary">
+          Contact Me <i class="uil uil-message" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <!--===================== LEGACY PORTFOLIO (kept for reference) ========================-->
+    <section class="portfolio section" id="portfolio-archive" hidden>
       <h2 class="section__title">Portfolio</h2>
       <span class="section__subtitle">Most recent work</span>
 
@@ -1020,7 +1041,16 @@
   <script src="js/scrollreveal.min.js"></script>
 
   <!--====================== JS Main File ====================-->
+  <script src="js/projects-data.js"></script>
+  <script src="js/projects.js"></script>
   <script src="js/main.js"></script>
+
+  <div class="lightbox" data-project-lightbox hidden role="dialog" aria-modal="true" aria-label="Project screenshot">
+    <button class="lightbox__close" type="button" data-lightbox-close aria-label="Close screenshot">
+      <i class="uil uil-times" aria-hidden="true"></i>
+    </button>
+    <img alt="">
+  </div>
 </body>
 
 </html>
