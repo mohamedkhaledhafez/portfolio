@@ -208,5 +208,90 @@ window.PORTFOLIO_PROJECTS = [
       ["../img/case-studies/ghonem-services.png", "Services & Pricing", "A structured presentation of salon services and pricing."],
       ["../img/case-studies/ghonem-dashboard.png", "Operations Dashboard", "A management view covering appointments, services, invoices, and daily operations."]
     ]
+  },
+  {
+    id: "hfms",
+    number: "06",
+    name: "HFMS Property & Facilities Platform",
+    title: "Integrated Property, Contract, Finance, and Facilities Operations System",
+    category: "Property & Facilities Management System",
+    status: "Archived",
+    statusTone: "archived",
+    website: null,
+    caseStudy: "case-studies/hfms-property-management.html",
+    lead: "A role-based operations platform connecting properties, units, client contracts, payments, departmental schedules, maintenance, complaints, suppliers, and management reporting.",
+    overview: [
+      "HFMS was built for organizations that manage multiple property projects and the services required to keep them operating.",
+      "The system links projects and units with client contracts, accounts, operational departments, attendance, suppliers, complaints, and reports, while also providing a dedicated client portal."
+    ],
+    challenge: "Property and facilities teams often work across separate files for occupancy, contracts, payments, maintenance, staff schedules, and client requests. This fragmentation makes contract follow-up, departmental accountability, and a complete view of each unit difficult.",
+    solution: "A centralized management system that makes the property unit the operational anchor, then connects it to its client, contract period, financial activity, service schedule, complaint history, and responsible department through controlled role-based access.",
+    features: [
+      ["Projects & Units", "Organize managed projects, regions, individual units, occupancy, and available-unit records."],
+      ["Clients & Contracts", "Maintain client profiles, unit relationships, rental terms, contract documents, and expiry visibility."],
+      ["Accounts & Requests", "Track account activity, checks, money requests, approvals, and supporting financial records."],
+      ["Department Scheduling", "Plan recurring work for housekeeping, security, IT, reception, maintenance, landscape, pool, and gym teams."],
+      ["Tasks, Attendance & Leave", "Coordinate staff tasks, attendance, departmental follow-up, and vacation schedules."],
+      ["Complaints & Appointments", "Register client issues and appointments, route follow-up, and maintain closure history."],
+      ["Suppliers", "Manage supplier records and supplier-related schedules alongside internal operations."],
+      ["Reports & Permissions", "Provide operational and financial reporting with granular access by department and role."]
+    ],
+    modules: ["Dashboard", "Projects", "Units", "Clients & Contracts", "Accounts", "Department Schedules", "Tasks", "Attendance", "Complaints", "Suppliers", "Reports", "Client Portal", "Permissions"],
+    businessValue: [
+      ["One operational record", "Connects property, unit, client, contract, finance, and service activity in one system."],
+      ["Earlier contract action", "Surfaces contracts approaching expiry so teams can follow up before deadlines."],
+      ["Department accountability", "Gives each facilities team a structured schedule and reporting path."],
+      ["Controlled client service", "Combines a client portal with internal complaint, appointment, and follow-up workflows."]
+    ],
+    technologies: ["PHP", "MySQL", "JavaScript", "jQuery", "AJAX", "Bootstrap", "PDO", "DataTables", "CKEditor"],
+    role: ["Solo Full-Stack Development", "System Architecture", "Database Design", "Property & Contract Workflows", "Facilities Operations", "Client Portal", "Roles & Permissions", "Reporting & Dashboards"],
+    images: [
+      ["../img/case-studies/hfms-admin-dashboard.png", "Facilities Operations Dashboard", "An executive view of managed projects, units, clients, suppliers, contracts, and operational activity."],
+      ["../img/case-studies/hfms-client-portal.png", "Client Portal", "A dedicated account experience for client information and property-related follow-up."],
+      ["../img/case-studies/hfms-unit-management.png", "Property Unit Management", "A structured workspace for project units, occupancy, contracts, and availability."]
+    ]
+  },
+  {
+    id: "rotate1",
+    number: "07",
+    name: "Rotate1 School Management System",
+    title: "Connected Academic Platform for Administration, Teachers, Parents, and Students",
+    category: "School Management & Learning Platform",
+    status: "Archived",
+    statusTone: "archived",
+    website: null,
+    caseStudy: "case-studies/rotate1-school-management.html",
+    lead: "A multi-account school platform bringing academic administration, classroom workflows, schedules, attendance, assessments, files, communication, and family visibility into one system.",
+    overview: [
+      "Rotate1 serves four distinct account experiences: school administration, teachers, parents, and students.",
+      "Its workflows cover the academic structure from grades, classes, subjects, and teaching assignments through homework, exams, marks, attendance, schedules, files, reports, applications, and direct communication."
+    ],
+    challenge: "Schools need different users to work with the same academic data without exposing every administrative function. When schedules, homework, attendance, results, files, and parent communication are spread across separate channels, follow-up becomes slow and inconsistent.",
+    solution: "A role-specific platform that gives administrators full institutional control, teachers focused classroom tools, parents visibility into their children and school communication, and students direct access to learning tasks, files, schedules, and results.",
+    features: [
+      ["Academic Structure", "Manage grades, classes, subjects, teaching assignments, school days, and academic schedules."],
+      ["Student Administration", "Maintain student records, applications, transfers, graduation status, and bulk Excel imports."],
+      ["Teacher Workspace", "Give teachers access to educational sections, subject files, homework, attendance, exams, and results."],
+      ["Homework & Learning Files", "Publish learning materials, organize homework sections, and receive student submissions."],
+      ["Exams, Quizzes & Marks", "Create assessments, schedule exams, record marks, and surface results to the relevant accounts."],
+      ["Parent & Student Portals", "Provide personalized profiles, schedules, files, reports, results, and school-service actions."],
+      ["Communication", "Connect students, parents, teachers, and administration through targeted chat and messaging workflows."],
+      ["Permissions & Website Content", "Control administrative privileges while managing the school website, news, and public content."]
+    ],
+    modules: ["Admin Dashboard", "Teacher Workspace", "Parent Portal", "Student Portal", "Grades & Classes", "Subjects", "Homework", "Attendance", "Schedules", "Exams & Quizzes", "Marks & Reports", "Files", "Chat", "Applications", "Permissions"],
+    businessValue: [
+      ["Role-specific access", "Gives each school stakeholder the information and actions relevant to their responsibilities."],
+      ["Connected academic workflow", "Links classes, subjects, attendance, homework, exams, and results instead of managing them separately."],
+      ["Stronger family visibility", "Makes student information and school communication available through a dedicated parent portal."],
+      ["Reduced administrative friction", "Centralizes records, imports, schedules, files, reporting, and communication for the school team."]
+    ],
+    technologies: ["PHP", "MySQL", "JavaScript", "jQuery", "AJAX", "Bootstrap", "PDO", "DataTables", "CKEditor"],
+    role: ["Solo Full-Stack Development", "System Architecture", "Database Design", "Multi-Account Authentication", "Academic Workflows", "Portals & Communication", "Roles & Permissions", "Responsive Frontend"],
+    images: [
+      ["../img/case-studies/rotate1-admin-dashboard.png", "School Administration Dashboard", "A central view of subjects, teachers, students, content, and academic administration."],
+      ["../img/case-studies/rotate1-teacher-workspace.png", "Teacher Workspace", "Focused teaching tools for educational sections, files, homework, attendance, exams, and results."],
+      ["../img/case-studies/rotate1-parent-portal.png", "Parent Portal", "A family-facing account for child records, reports, files, and direct communication."],
+      ["../img/case-studies/rotate1-student-portal.png", "Student Portal", "A personalized learning account for grade files, homework, schedules, exams, and marks."]
+    ]
   }
 ];
